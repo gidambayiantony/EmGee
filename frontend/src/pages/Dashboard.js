@@ -1,22 +1,34 @@
-// Dashboard.js
-import React from 'react';
+import React from "react";
+import "./Dashboard.css"; // Import the CSS file
+import ResumeBuilder from "./ResumeBuilder";
+import CoverLetterGenerator from "./CoverLetterGenerator";
+import ResumeChecker from "./ResumeChecker";
 
 const Dashboard = () => {
-  // You can add additional logic here for user-specific data or actions
-
   return (
-    <div>
-      <h2>User Dashboard</h2>
-      <ul>
-        <li><a href="/resume-builder">Resume Builder</a></li>
-        <li><a href="/cover-letter-generator">Cover Letter Generator</a></li>
-        <li><a href="/resume-checker">Resume Checker</a></li>
-        <li><a href="/payment">Payment Integration</a></li>
-        {/* Additional links or components as needed */}
-      </ul>
-    </div>
+    <main>
+      <header>
+        <h1>Excellent-CV</h1>
+        <img src="/images/logo.png" alt="Excellent-CV logo" />
+      </header>
+
+      <section>
+        <ResumeBuilder />
+      </section>
+
+      <section>
+        <CoverLetterGenerator />
+      </section>
+
+      <section>
+        <ResumeChecker />
+      </section>
+
+      <footer>
+        <p>Excellent-CV &copy; 2023</p>
+      </footer>
+    </main>
   );
 };
 
 export default Dashboard;
-
