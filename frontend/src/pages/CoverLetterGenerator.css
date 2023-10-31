@@ -1,0 +1,49 @@
+/* CoverLetterGenerator.css */
+
+.cover-letter-container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.template-options select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.cover-letter-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.generate-button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cover-letter {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.cover-letter h1 {
+  font-size: 20px;
+}
+
+.cover-letter p {
+  font-size: 16px;
+  line-height: 24px;
+}
+

@@ -1,32 +1,38 @@
-// ResumeTemplates.js
 import React from 'react';
+import './ResumeTemplates.css'; // Import the CSS file for styling
 
 const ResumeTemplates = () => {
-  // Array of different resume templates
   const templates = [
     {
       id: 1,
-      name: 'Template 1',
-      // Design and structure for Template 1
+      name: 'Modern Template 1',
+      design: require('./templates/modern-template-1.png'),
     },
     {
       id: 2,
-      name: 'Template 2',
-      // Design and structure for Template 2
+      name: 'Modern Template 2',
+      design: require('./templates/modern-template-2.png'),
     },
-    // Add more template objects as needed
+    {
+      id: 3,
+      name: 'Traditional Template 1',
+      design: require('./templates/traditional-template-1.png'),
+    },
+    {
+      id: 4,
+      name: 'Traditional Template 2',
+      design: require('./templates/traditional-template-2.png'),
+    },
   ];
 
   return (
-    <div>
+    <div className="resume-templates">
       <h2>Choose a Resume Template</h2>
       <div className="template-list">
         {templates.map((template) => (
           <div key={template.id} className="template-preview">
-            {/* Display template preview with selectable options */}
+            <img src={template.design} alt="Resume template preview" />
             <h3>{template.name}</h3>
-            {/* Show the design or preview of each template */}
-            {/* Allow users to select a template */}
             <button>Select Template</button>
           </div>
         ))}
@@ -36,4 +42,3 @@ const ResumeTemplates = () => {
 };
 
 export default ResumeTemplates;
-

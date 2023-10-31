@@ -1,0 +1,37 @@
+/* ResumeChecker.css */
+.resume-checker {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.resume-checker textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.resume-checker button {
+  padding: 10px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.resume-checker .resume-errors {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume-checker .resume-errors li {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.resume-checker h3 {
+  font-size: 20px;
+}
+
