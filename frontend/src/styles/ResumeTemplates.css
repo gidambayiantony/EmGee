@@ -1,0 +1,51 @@
+.resume-templates {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.resume-templates h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.template-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.template-preview {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.template-preview img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.template-preview h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.template-preview button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.template-preview button:hover {
+  background-color: #0069d9;
+}
+
