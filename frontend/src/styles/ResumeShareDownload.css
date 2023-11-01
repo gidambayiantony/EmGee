@@ -1,0 +1,38 @@
+.resume-share-download {
+  padding: 20px;
+}
+
+.resume-share-download h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume-share-download .pay-button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.resume-share-download .download-buttons,
+.resume-share-download .share-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.resume-share-download .download-button,
+.resume-share-download .share-button {
+  width: 150px;
+  background-color: #ccc;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
